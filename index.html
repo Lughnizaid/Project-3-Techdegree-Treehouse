@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code Review</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="top-bar">
+      <h1 class="code-review-font">The Code Review</h1>
+    </header>
+
+    <main>
+      <div class="intro">
+        <h2 class="title">Sign up for our newsletter</h2>
+        <h3 class="desc">Get the latest news on how your code is doing right in your inbox </h3>
+      </div>
+      <hr class="before">
+
+      <form action="index.html" method="post">
+        <fieldset>
+        <legend class="contact-info">Contact Information</legend>
+                  <div class="the-group">
+                    <label for="name" > Full Name</label>
+                    <input type="text" id="name" name="user_name" required placeholder="Required" class="required">
+                  </div>
+                  <div class="the-group">
+                    <label for="email"> Email Address</label>
+                    <input type="email" id="email" name="user_email" required placeholder="Required" class="required">
+                  </div>
+                  <div class="the-group">
+                    <label for="phone"> Phone Number</label>
+                    <input type="tel" id="phone" name="user_phone" required placeholder="Required" class="required">
+                  </div>
+                  <div class="the-group">
+                    <label for="address">Street Address</label>
+                    <input type="text" id="address" name="user_address">
+                  </div>
+                  <div class="the-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="user_city">
+                  </div>
+                  <div class="the-group">
+                    <label for="state">State</label>
+                          <select id="state" name="user_state">
+                            <option value="" disabled selected class="choose">Choose state</option>
+                            <option value="Bavaria">Bavaria</option>
+                            <option value="Turingen">Turingen</option>
+                            <option value="Westfalen">Westfalen</option>
+                            <option value="Berlin">Berlin</option>
+                            <option value="Bremen">Bremen</option>
+                            <option value="Saarland">Saarland</option>
+                            <option value="Sachsen">Sachsen</option>
+                            <option value="Hessen">Hessen</option>
+                          </select>
+                    </div>
+                    <div class="the-group-zip">
+                      <label for="zip">Zip Code</label>
+                      <input type="text" id="zip" name="user_zip">
+                    </div>
+                <hr class="after-zip">
+        </fieldset>
+        <div class="secondary">
+        <fieldset class="second">
+                  <legend class="letter">Newsletter</legend>
+                  <p class="explain">Select the newsletter you would like to receive</p>
+                  <input type="checkbox" id="html_news" value="html_news" name="skill_news"><label class="light" for="html_news">HTML News</label><br>
+                  <input type="checkbox" id="css_news" value="css_news" name="skill_news"><label class="light" for="css_news">CSS News</label><br>
+                  <input type="checkbox" id="javascript_news" value="javascript_news" name="skill_news"><label class="light" for="javascript_news">Javascript News</label>
+
+                  <p class="format">Newsletter Format</p>
+                  <input type="radio" id="html_format" value="html_format" name="format"><label for="html_format" class="light">HTML</label><br>
+                  <input type="radio" id="plain_format" value="plain_format" name="format"><label for="plain_format" class="light">Plain Text</label>
+
+                  <label class="other" for="other-topic">Other topic you like to hear about</label>
+                  <div class="div-other">
+                  <textarea id="other-topic" name="other-topic"></textarea>
+                    </div>
+
+                    <div class="submit-button">
+                      <button type="submit">Sign Up</button>
+                    </div>
+                  </fieldset>
+                </div>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright The Code Review</p>
+    </footer>
+  </body>
+</html>
