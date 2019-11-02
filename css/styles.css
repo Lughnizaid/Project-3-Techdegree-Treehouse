@@ -280,4 +280,12 @@ input[type=radio] {
   .second {
     width: 98%;
     margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  .second {
+    width: 98%;
+    margin-top: 10px;
+  }
 }
