@@ -3,7 +3,7 @@
 <p>In this project, I build a responsive, mobile-friendly registration form using a wide variety of HTML form input types and attributes. Using the supplied mockup files, I build a mobile and desktop version of the form using media queries, and a "mobile-first" approach.</p>
 <br>
 <h2>Live Demo</h2>
-<a href="https://lughnizaid.github.io/Project-3-Techdegree-Treehouse/"><img src="images/snapshot-form.png"></a>
+<a href="https://lughnizaid.github.io/Project-3-Techdegree-Treehouse/"><img src="snapshot-form.png"></a>
 <br>
 <ul>
   <li>HTML</li>
